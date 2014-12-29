@@ -1,0 +1,17 @@
+{
+  "name": "duoshuo-theme-airpub",
+  "main": "dist/embed.min.css",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "serve --no-less .",
+    "watch": "rewatch less/*.less -c 'npm run build-less'",
+    "build-less": "node_modules/.bin/lessc -x less/embed.less dist/embed.min.css",
+    "dev": "npm run watch & npm run serve",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "serve": "~1.4.0",
+    "rewatch": "~0.2.2",
+    "less": "~1.7.3"
+  }
+}

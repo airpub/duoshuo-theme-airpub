@@ -1,8 +1,6 @@
-## duoshuo-embed.css
+## duoshuo-theme-airpub
 
-多说评论框 CSS 样式源代码，采用 LESS 编写。
-
-![screenshot](./screenshot.png)
+专为 Airpub 博客用户设计的多说评论框主题
 
 ### 为多说评论框开发新主题：
 
